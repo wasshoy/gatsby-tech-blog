@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://memomohmo-mohmomo.netlify.com',
   pathPrefix: '/',
   title: 'メモモーモ・モーモモ',
-  subtitle: 'モがゲシュタルト崩壊したと思います。',
+  subtitle: 'なんちゃってテックメモです。',
   copyright: '© wasshoy All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -26,8 +26,8 @@ module.exports = {
   ],
   author: {
     name: 'wasshoy',
-    photo: '/breadclip.png',
-    bio: 'ノーマル/ノーマル タイプのエンジニアです。',
+    photo: '/breadclip.gif',
+    bio: 'ノーマル / ノーマル タイプのエンジニアです。全部左利きです。よく街中にいたと言われますがいません。',
     contacts: {
       email: '',
       facebook: '#',
