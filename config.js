@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© wasshoy All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  // googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'G-XTJQ459YP4',
   useKatex: false,
   menu: [
     {
