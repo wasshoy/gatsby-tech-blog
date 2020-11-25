@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'メモモーモモ・モーモモ',
+  title: 'メモモーモ・モーモモ',
   subtitle: 'モがゲシュタルト崩壊したと思います。',
   copyright: '© wasshoy All rights reserved.',
   disqusShortname: '',
