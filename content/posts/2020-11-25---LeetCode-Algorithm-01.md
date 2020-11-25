@@ -1,28 +1,34 @@
 ---
-title: きまぐれLeetCode
+title: きまぐれLeetCode：連結リストの挿入ソート
 date: '2020-11-25'
 template: 'post'
 draft: false
 slug: 'leetcode-linked-list'
-category: 'アルゴリズム'
+category: 'Algorithm'
 tags:
-  - 'アルゴリズム'
+  - 'Algorithm'
   - 'LeetCode'
 
-description: 'ここ最近、AtCoderの過去問に取り組んでいるのですが、気まぐれで久しぶりにLeetCodeを覗いてみました。そこで「単連結リストの挿入ソート」の問題に取り組みました。'
+description: 'ここ最近、AtCoderの過去問に取り組んでいるのですが、気まぐれでLeetCodeを覗いてみました。そこで「単連結リスト」に出会ったので、少しだけメモします。'
 socialImage: '/media/image-2.jpg'
 ---
 
 アルゴリズムには大学一年生からずっと頭を悩まされている気がします。。。
-実験中に眠気に襲われ、LeetCode の[147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)を眠気覚ましに解きました。ある日の C 言語の授業で躓いた思い出がある「連結リスト（Linked list）」なる言葉が出てきたので、用語の方をメモ程度にまとめておきます。詳細は問題の解説に任せます。
+実験中に眠気に襲われ、LeetCode の[147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)を眠気覚ましに解きました。<br>
+<ある日の C 言語の授業で躓いた思い出がある「連結リスト（Linked list）」なる言葉が出てきたので、用語の方をメモ程度にまとめておきます。詳細は問題の解説に任せます。
 
 ## 問題の概要
 
 単連結リストに対して挿入ソートを行うアルゴリズムを実装せよ。
-あー。
-こことここをスワップして、、、
 
-？？？
+あー。<br>
+😀 こことここをスワップして、、、
+
+🤔 ？
+
+🥺 ？？？
+
+😇
 
 ## 用語たち
 
@@ -32,11 +38,10 @@ socialImage: '/media/image-2.jpg'
 単方向：参照の方向が片方のみであること。参照がお互いにある場合は双方向。
 
 Python の list は配列です（たぶん）。
-以下、ここでは 単連結リスト = 連結リスト と呼びます。
 
 ### 挿入ソート
 
-既にソート済みの配列にある値を挿入して再びソート済みの配列にしていく、並び替えのアルゴリズムの１つ。配列だと時間計算量が O(N^2)かかる。
+既にソート済みの配列にある値を挿入して再びソート済みの配列にしていく、並び替えのアルゴリズムの１つ。配列だと時間計算量が` O(N^2)`かかる。
 
 ## 本題 ： 単方向連結リストの挿入ソート
 

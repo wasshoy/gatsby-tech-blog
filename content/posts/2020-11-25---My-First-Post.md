@@ -4,11 +4,11 @@ date: '2020-11-19'
 template: 'post'
 draft: false
 slug: 'my-first-post'
-category: 'Gatsby'
+category: 'frontend'
 tags:
   - 'Gatsby'
   - 'JavaScript'
-description: 'Gatsbyでブログを作成しました（このサイト）。公開までに踏んだ手順を書いていきます。'
+description: '[ 編集中 ] Gatsbyでブログを作成しました（このサイト）。公開までに踏んだ手順を書いていきます。'
 socialImage: '/media/42-line-bible.jpg'
 ---
 
