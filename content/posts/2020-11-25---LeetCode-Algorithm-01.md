@@ -1,6 +1,6 @@
 ---
 title: きまぐれLeetCode
-date: '2016-09-01T23:46:37.121Z'
+date: '2020-11-25'
 template: 'post'
 draft: false
 slug: 'leetcode-linked-list'
