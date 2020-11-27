@@ -37,7 +37,7 @@ socialImage: '/media/image-2.jpg'
 連結リスト：データ構造の１つで、一つの単位（ノード）はある値とあるノードへの参照を持つ。配列と比較される。
 単方向：参照の方向が片方のみであること。参照がお互いにある場合は双方向。
 
-Python の list は配列です（たぶん）。
+Python の list は（動的）配列です（たぶん）。
 
 ### 挿入ソート
 
@@ -50,6 +50,33 @@ Python の list は配列です（たぶん）。
 1. 配列の挿入ソートのように、ソート済みの連結リストを用意する
 2. ソート済み配列の先頭のノードから挿入したいノードの値を比較していく
 3. 2.を実装するために、「今から挿入するノード」の参照を用意する
+
+### 実装
+
+```python
+class Solution:
+    def insertionSortList(self, head: ListNode) -> ListNode:
+        # 3 つのポインタを考える
+        # curr: 今から挿入しようとしているノード
+        # prev: currと比較するノード（初期値は空のdummyノード）
+        # curr.next: curr の次のノード
+        dummy = ListNode()
+        curr = head
+        while curr:
+            prev = dummy
+
+            # prev を curr と比較していき、curr の挿入位置を見つける
+            while prev.next:
+                if prev.next.val > curr.val:break
+                prev = prev.next
+
+            next = curr.next
+            curr.next = prev.next
+            prev.next = curr
+            curr = next  # 次のノードを挿入する準備
+
+        return dummy.next
+```
 
 提出結果は[こちら](https://leetcode.com/submissions/detail/423965338/)
 
