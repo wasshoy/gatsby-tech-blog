@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'wasshoy',
     photo: '/breadclip.gif',
-    bio: 'ノーマル / ノーマル タイプのエンジニアです。全部左利きです。よく街中にいたと言われますがいません。',
+    bio: 'ノーマル / ノーマル タイプのエンジニアです。全部左利きです。',
     contacts: {
       email: '',
       facebook: '#',
