@@ -1,5 +1,5 @@
 ---
-title: きまぐれLeetCode：連結リストの挿入ソート
+title: Insertion Sort List（連結リストの挿入ソート）
 date: '2020-11-25'
 template: 'post'
 draft: false

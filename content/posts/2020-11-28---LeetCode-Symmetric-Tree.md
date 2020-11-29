@@ -1,5 +1,5 @@
 ---
-title: きまぐれLeetCode：二分木の対称性
+title: Symmetric Tree（二分木の対称性）
 date: '2020-11-28'
 template: 'post'
 draft: false
